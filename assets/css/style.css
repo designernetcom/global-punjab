@@ -2641,7 +2641,7 @@ ul.list-content li p.text {
   animation: slideIn 0.5s ease-out;
   position: fixed;
   right: 0;
-  top: 50%;
+  top: 35%;
   transform: translateY(-50%);
   /* background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%); */
   /* border-radius: 25px 0 0 25px; */
