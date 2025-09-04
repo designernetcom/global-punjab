@@ -2686,7 +2686,11 @@ ul.list-content li p.text {
 
 @media screen and (max-width: 767px) {
   .links {
-    /* display: block; */
+    display: block;
+  }
+  .list2 li {
+    justify-content: center;
+    align-items: center;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
