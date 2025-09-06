@@ -37,9 +37,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="assets/css/fancybox.css" />
+    <script>
+      window.ga =
+        window.ga ||
+        function () {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+      ga("create", "UA-105392568-1", "auto");
+      ga("send", "pageview");
+    </script>
   </head>
 
   <body class="body counter-scroll">
+    <canvas class="banner_canvas" id="canvas_banner"></canvas>
     <!-- preload -->
     <!-- <div class="preload preload-container">
       <div class="middle"></div>
@@ -1951,8 +1963,8 @@
     <!-- /#wrapper -->
 
     <!-- cusor -->
-    <div class="tf-mouse tf-mouse-outer"></div>
-    <div class="tf-mouse tf-mouse-inner"></div>
+    <!-- <div class="tf-mouse tf-mouse-outer"></div>
+    <div class="tf-mouse tf-mouse-inner"></div> -->
 
     <!-- go top button -->
     <div class="progress-wrap active-progress">
@@ -1991,6 +2003,7 @@
     <script src="assets/js/nouislider.min.js"></script>
     <script src="assets/js/magnific-popup.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/smoke.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
