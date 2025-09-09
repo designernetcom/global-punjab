@@ -1457,12 +1457,12 @@ form.form-search button {
 
 /* style-1 */
 .wg-private-event.style-1 {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 
 .wg-private-event.style-1 .content {
-  padding-top: 77px;
+  padding-top: 0;
 }
 
 .wg-private-event.style-1 .heading-section .sub {
@@ -1474,7 +1474,7 @@ form.form-search button {
 }
 
 .wg-private-event.style-1 p {
-  text-align: start;
+  text-align: justify;
   font-size: 15px;
   line-height: 25px;
   /* max-width: 535px; */
@@ -1493,6 +1493,7 @@ form.form-search button {
   top: 246px;
   background-image: url(../images/item-background/snare-1.png);
   animation: rotate360 7s infinite linear;
+  display: none;
 }
 
 /* testimonial-item */
@@ -1783,8 +1784,8 @@ form.form-search button {
 
 /* style-1 */
 .our-menu {
-  padding-top: 123px;
-  padding-bottom: 130px;
+  padding-top: 70px;
+  padding-bottom: 80px;
   background: white;
 }
 
@@ -2281,7 +2282,7 @@ form.form-search button {
 /* counter */
 /* --------------------------------- */
 .wg-counter {
-  background-color: #182125;
+  background-color: #fff;
   background-image: url(../images/item-background/wave.png);
   background-attachment: fixed;
   background-position: center;
@@ -2319,7 +2320,7 @@ form.form-search button {
   font-family: "DM Sans";
   font-size: 15px;
   line-height: 25px;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   letter-spacing: 2.2px;
 }
