@@ -2936,7 +2936,8 @@ ul.list-content li p.text {
 .explore-overlay h5 {
   font-weight: bold;
   margin: 0;
-  color: #f9b101;
+  color: #fff;
+  font-size: 22px;
 }
 
 .catering {

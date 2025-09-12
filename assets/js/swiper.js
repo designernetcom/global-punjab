@@ -3,9 +3,15 @@ var sliderinit = function () {
   let defaults = {
     spaceBetween: 0,
     slidesPerView: 1,
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
+    },
   };
+
   // call init function
   initSwipers(defaults);
+
   function initSwipers(defaults = {}, selector = ".swiper-container") {
     let swipers = document.querySelectorAll(selector);
     swipers.forEach((swiper) => {
@@ -25,9 +31,14 @@ var sliderinit = function () {
 };
 sliderinit();
 
+// Specific slider with pagination numbers
 var swiper = new Swiper(".slider-page-title", {
   spaceBetween: 0,
   slidesPerView: 1,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".page-title-pagination",
     clickable: true,
