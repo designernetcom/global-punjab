@@ -557,7 +557,7 @@ form.form-search button {
   height: 36px;
   border-radius: 50%;
   background-color: transparent;
-  border: 1px solid #c6ac83;
+  border: 1px solid #f9b101;
   color: #fff;
   font-size: 13px;
   display: flex;
@@ -929,7 +929,7 @@ form.form-search button {
   font-size: 30px;
   font-style: italic;
   line-height: 32px;
-  color: #b09a72;
+  color: #f9b101;
   letter-spacing: 0.6px;
 }
 
@@ -1697,7 +1697,7 @@ form.form-search button {
   right: 37px;
   top: -17px;
   bottom: -17px;
-  border: 1px solid #c6ac83;
+  border: 1px solid #f9b101;
   z-index: 1;
 }
 
@@ -2463,7 +2463,7 @@ form.form-search button {
   content: "";
   width: 8px;
   height: 8px;
-  background-color: #c6ac83;
+  background-color: #f9b101;
   transform: translateY(-50%) rotate(45deg);
   top: 50%;
   right: -20px;
