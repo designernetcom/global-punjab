@@ -951,38 +951,38 @@ form.form-search button {
   margin-bottom: 41px;
 }
 
-.page-title .content.text-center {
-  text-align: center;
+.page-title .content.text3 {
+  /* text-align: center; */
   /* background-image: url(../images/customers-say-bg.jpg); */
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../images/customers-say-bg.jpg) no-repeat center center / cover !important;
 }
 
-.page-title .content.text-center a {
+.page-title .content.text3 a {
   margin: auto;
   letter-spacing: 1.9px;
   transform: translateX(-4px);
 }
 
-.page-title .content.text-right {
-  text-align: end;
+.page-title .content.text2 {
+  /* text-align: end; */
   /* background-image: url(../images/quality-banner.webp); */
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../images/quality-banner.webp) no-repeat center center / cover !important;
+    url(../images/banner3.webp) no-repeat center center / cover !important;
 }
 
-.page-title .content.text-right a {
+.page-title .content.text2 a {
   margin-left: auto;
 }
 
-.page-title .content.text-left {
+.page-title .content.text1 {
   text-align: start;
   /* background-image: url(../images/bg-section/bg-home-2.jpg); */
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../images/new-banner.jpg) no-repeat center center / cover !important;
 }
 
-.page-title .content.text-rigleftht a {
+.page-title .content.text1 a {
   margin-left: 0;
 }
 
@@ -1470,7 +1470,7 @@ form.form-search button {
 }
 
 .wg-private-event.style-1 .divider {
-  margin-bottom: 59px;
+  margin-bottom: 40px;
 }
 
 .wg-private-event.style-1 p {
@@ -3086,7 +3086,7 @@ form.form-search button {
 
 .button-style-arrow::after {
   font-size: 20px !important;
-  color: #b8a17b !important;
+  color: #f9b101 !important;
 }
 
 .button-style-arrow:hover::after {
@@ -4531,6 +4531,7 @@ a.mapboxgl-ctrl-logo {
   line-height: 40px;
   letter-spacing: 1px;
   text-align: center;
+  display: none;
 }
 
 .shop-item.sale-off .image::after {
@@ -5151,7 +5152,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 .wg-related .button-style-arrow:hover {
-  background-color: #c6ac83 !important;
+  background-color: #f9b101 !important;
 }
 
 .wg-related .button-style-arrow.swiper-button-prev {
