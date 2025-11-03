@@ -1457,7 +1457,7 @@ form.form-search button {
 
 /* style-1 */
 .wg-private-event.style-1 {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -1784,8 +1784,8 @@ form.form-search button {
 
 /* style-1 */
 .our-menu {
-  padding-top: 70px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 60px;
   background: white;
 }
 
@@ -5133,7 +5133,7 @@ a.mapboxgl-ctrl-logo {
 
 /* wg-related */
 .wg-related {
-  padding-bottom: 65px;
+  padding-bottom: 0;
 }
 
 .wg-related .heading-section .sub {

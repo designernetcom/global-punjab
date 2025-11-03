@@ -2107,7 +2107,7 @@ a:focus {
 
 /* footer-1 */
 .footer-1 {
-  padding-top: 80px;
+  padding-top: 50px;
 }
 
 .footer-1 .logo-footer {
@@ -2926,7 +2926,7 @@ ul.list-content li p.text {
   text-align: center;
 }
 .explore-section {
-  padding: 60px 0;
+  padding: 40px 0;
 }
 .explore-overlay i {
   font-size: 40px;
